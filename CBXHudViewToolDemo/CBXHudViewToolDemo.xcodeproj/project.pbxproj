@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043E37A12611AC8F009EB14A /* CBXChoseHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E379B2611AC8F009EB14A /* CBXChoseHudView.m */; };
+		043E37A22611AC8F009EB14A /* CBXProgressHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E379C2611AC8F009EB14A /* CBXProgressHudView.m */; };
+		043E37A32611AC8F009EB14A /* CBXHudViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E379D2611AC8F009EB14A /* CBXHudViewTool.m */; };
+		043E37A42611AC8F009EB14A /* CBXNoticeHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E379E2611AC8F009EB14A /* CBXNoticeHudView.m */; };
 		319304992068E2D0008CE764 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 319304982068E2D0008CE764 /* AppDelegate.m */; };
 		3193049C2068E2D0008CE764 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3193049B2068E2D0008CE764 /* ViewController.m */; };
 		3193049F2068E2D0008CE764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3193049D2068E2D0008CE764 /* Main.storyboard */; };
@@ -15,10 +19,6 @@
 		319304A72068E2D0008CE764 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 319304A62068E2D0008CE764 /* main.m */; };
 		319304B12068E2D0008CE764 /* CBXHudViewToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 319304B02068E2D0008CE764 /* CBXHudViewToolDemoTests.m */; };
 		319304BC2068E2D0008CE764 /* CBXHudViewToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 319304BB2068E2D0008CE764 /* CBXHudViewToolDemoUITests.m */; };
-		319304D22068E2E1008CE764 /* CBXChoseHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 319304CB2068E2E1008CE764 /* CBXChoseHudView.m */; };
-		319304D32068E2E1008CE764 /* CBXHudViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 319304CD2068E2E1008CE764 /* CBXHudViewTool.m */; };
-		319304D42068E2E1008CE764 /* CBXNoticeHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 319304CF2068E2E1008CE764 /* CBXNoticeHudView.m */; };
-		319304D52068E2E1008CE764 /* CBXProgressHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 319304D12068E2E1008CE764 /* CBXProgressHudView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043E37992611AC8F009EB14A /* CBXNoticeHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBXNoticeHudView.h; sourceTree = "<group>"; };
+		043E379A2611AC8F009EB14A /* CBXHudViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBXHudViewTool.h; sourceTree = "<group>"; };
+		043E379B2611AC8F009EB14A /* CBXChoseHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBXChoseHudView.m; sourceTree = "<group>"; };
+		043E379C2611AC8F009EB14A /* CBXProgressHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBXProgressHudView.m; sourceTree = "<group>"; };
+		043E379D2611AC8F009EB14A /* CBXHudViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBXHudViewTool.m; sourceTree = "<group>"; };
+		043E379E2611AC8F009EB14A /* CBXNoticeHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBXNoticeHudView.m; sourceTree = "<group>"; };
+		043E379F2611AC8F009EB14A /* CBXProgressHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBXProgressHudView.h; sourceTree = "<group>"; };
+		043E37A02611AC8F009EB14A /* CBXChoseHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBXChoseHudView.h; sourceTree = "<group>"; };
 		319304942068E2D0008CE764 /* CBXHudViewToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBXHudViewToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		319304972068E2D0008CE764 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		319304982068E2D0008CE764 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,14 +63,6 @@
 		319304B72068E2D0008CE764 /* CBXHudViewToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBXHudViewToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		319304BB2068E2D0008CE764 /* CBXHudViewToolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBXHudViewToolDemoUITests.m; sourceTree = "<group>"; };
 		319304BD2068E2D0008CE764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		319304CA2068E2E1008CE764 /* CBXChoseHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBXChoseHudView.h; sourceTree = "<group>"; };
-		319304CB2068E2E1008CE764 /* CBXChoseHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBXChoseHudView.m; sourceTree = "<group>"; };
-		319304CC2068E2E1008CE764 /* CBXHudViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBXHudViewTool.h; sourceTree = "<group>"; };
-		319304CD2068E2E1008CE764 /* CBXHudViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBXHudViewTool.m; sourceTree = "<group>"; };
-		319304CE2068E2E1008CE764 /* CBXNoticeHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBXNoticeHudView.h; sourceTree = "<group>"; };
-		319304CF2068E2E1008CE764 /* CBXNoticeHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBXNoticeHudView.m; sourceTree = "<group>"; };
-		319304D02068E2E1008CE764 /* CBXProgressHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBXProgressHudView.h; sourceTree = "<group>"; };
-		319304D12068E2E1008CE764 /* CBXProgressHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBXProgressHudView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +90,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043E37982611AC8F009EB14A /* CBXHudViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				043E37992611AC8F009EB14A /* CBXNoticeHudView.h */,
+				043E379A2611AC8F009EB14A /* CBXHudViewTool.h */,
+				043E379B2611AC8F009EB14A /* CBXChoseHudView.m */,
+				043E379C2611AC8F009EB14A /* CBXProgressHudView.m */,
+				043E379D2611AC8F009EB14A /* CBXHudViewTool.m */,
+				043E379E2611AC8F009EB14A /* CBXNoticeHudView.m */,
+				043E379F2611AC8F009EB14A /* CBXProgressHudView.h */,
+				043E37A02611AC8F009EB14A /* CBXChoseHudView.h */,
+			);
+			name = CBXHudViewTool;
+			path = ../../CBXHudViewTool;
+			sourceTree = "<group>";
+		};
 		3193048B2068E2D0008CE764 = {
 			isa = PBXGroup;
 			children = (
@@ -113,11 +129,11 @@
 		319304962068E2D0008CE764 /* CBXHudViewToolDemo */ = {
 			isa = PBXGroup;
 			children = (
+				043E37982611AC8F009EB14A /* CBXHudViewTool */,
 				319304972068E2D0008CE764 /* AppDelegate.h */,
 				319304982068E2D0008CE764 /* AppDelegate.m */,
 				3193049A2068E2D0008CE764 /* ViewController.h */,
 				3193049B2068E2D0008CE764 /* ViewController.m */,
-				319304C92068E2E1008CE764 /* CBXHudViewTool */,
 				3193049D2068E2D0008CE764 /* Main.storyboard */,
 				319304A02068E2D0008CE764 /* Assets.xcassets */,
 				319304A22068E2D0008CE764 /* LaunchScreen.storyboard */,
@@ -143,21 +159,6 @@
 				319304BD2068E2D0008CE764 /* Info.plist */,
 			);
 			path = CBXHudViewToolDemoUITests;
-			sourceTree = "<group>";
-		};
-		319304C92068E2E1008CE764 /* CBXHudViewTool */ = {
-			isa = PBXGroup;
-			children = (
-				319304CC2068E2E1008CE764 /* CBXHudViewTool.h */,
-				319304CD2068E2E1008CE764 /* CBXHudViewTool.m */,
-				319304CA2068E2E1008CE764 /* CBXChoseHudView.h */,
-				319304CB2068E2E1008CE764 /* CBXChoseHudView.m */,
-				319304CE2068E2E1008CE764 /* CBXNoticeHudView.h */,
-				319304CF2068E2E1008CE764 /* CBXNoticeHudView.m */,
-				319304D02068E2E1008CE764 /* CBXProgressHudView.h */,
-				319304D12068E2E1008CE764 /* CBXProgressHudView.m */,
-			);
-			path = CBXHudViewTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,12 +295,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3193049C2068E2D0008CE764 /* ViewController.m in Sources */,
-				319304D32068E2E1008CE764 /* CBXHudViewTool.m in Sources */,
 				319304A72068E2D0008CE764 /* main.m in Sources */,
+				043E37A32611AC8F009EB14A /* CBXHudViewTool.m in Sources */,
+				043E37A42611AC8F009EB14A /* CBXNoticeHudView.m in Sources */,
 				319304992068E2D0008CE764 /* AppDelegate.m in Sources */,
-				319304D42068E2E1008CE764 /* CBXNoticeHudView.m in Sources */,
-				319304D22068E2E1008CE764 /* CBXChoseHudView.m in Sources */,
-				319304D52068E2E1008CE764 /* CBXProgressHudView.m in Sources */,
+				043E37A22611AC8F009EB14A /* CBXProgressHudView.m in Sources */,
+				043E37A12611AC8F009EB14A /* CBXChoseHudView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
