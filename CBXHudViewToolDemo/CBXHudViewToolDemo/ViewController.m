@@ -33,6 +33,8 @@
 
 - (IBAction)choseBtn:(id)sender {
     
+    // 开始测试
+    
     // 1. 选择提示框
     /*
      ContentTitle: 最多5个元素
